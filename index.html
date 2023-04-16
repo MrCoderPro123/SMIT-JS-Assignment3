@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoviesLister</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>MoviesLister: Access Your Favorite Movies Here</h1>
+        <h2>Enter Details:</h2>
+        <div id="ul" >
+            <ul id="form">
+                <li>
+                    <label for="TorC">Title:</label>
+                    <input type="text" name="Title" id="title" placeholder="EX: Avengers">
+                </li>
+                <li>
+                    <label for="TorC">Genre:</label>
+                    <input type="text" name="genre" id="genre" placeholder="EX: Action, Sci-Fi">
+                </li>
+                <li>
+                    <label for="rYear">Year:</label>
+                    <input type="number" name="year" id="year" placeholder="EX: 2019">
+                </li>
+                <li>
+                    <label for="language">Language:</label>
+                    <input type="text" name="language" id="language" placeholder="EX: English">
+                </li>
+            </ul>
+        </div>
+        <button id="sBtn">Search</button>
+        <h2>Movies:</h2>
+        <ul id="mList">
+
+        </ul>
+    </div>
+</body>
+
+</html>

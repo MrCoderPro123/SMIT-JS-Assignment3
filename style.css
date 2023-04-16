@@ -1,0 +1,9 @@
+.container {
+    margin: 100px;
+}
+#form {
+    display: flex;
+}
+li {
+    list-style: none;
+}
